@@ -1,0 +1,50 @@
+.man {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 10px;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.imgbro {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btnhide {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .imgbro{
+        width: 150px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .imgbro{
+        width: 50px;
+        height: 50px;
+    }
+}

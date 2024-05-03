@@ -1,0 +1,13 @@
+
+.outer{
+    width: 100%;
+    position: relative;
+}
+
+.scroll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
